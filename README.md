@@ -1,8 +1,10 @@
 # Credit Loan Eligibility Predictor
 # Project Overview
 This project aims to predict the eligibility of loan applicants based on various personal and financial characteristics. It uses a Random Forest Classifier to analyze the data and provide predictions about whether a loan applicant is eligible for a loan. The model is trained using features such as gender, marital status, income, credit history, and more.
-
 The project includes data preprocessing, feature engineering, model training, evaluation, and visualization of the results.
+
+# To run the app:
+https://amira-aladra-credit-eligibility-app.streamlit.app/
 
 ## Features
 - Data Preprocessing: Missing values are handled through imputation, and categorical variables are transformed into dummy variables.
