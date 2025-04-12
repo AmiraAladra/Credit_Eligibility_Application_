@@ -108,7 +108,7 @@ if submit_button:
 
     # Display result in a customized output box
     st.markdown("### **Prediction Result:**")
-    if new_prediction[0] == 'Y':
+    if new_prediction[0] == 1:
         st.success("**🎉 Congratulations! You are eligible for the loan! 🎉**", icon="✅")
     else:
         st.error("**❌ Sorry, you are not eligible for the loan. ❌**", icon="⚠️")

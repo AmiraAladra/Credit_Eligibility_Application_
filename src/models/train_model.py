@@ -29,7 +29,7 @@ def train_RFmodel(X, y):
 
     try:
         # Train the RandomForestClassifier model
-        model = RandomForestClassifier(n_estimators=2,
+        model = RandomForestClassifier(n_estimators=100,
                                        max_depth=2,
                                        max_features=8).fit(X_train_scaled, y_train)
     except ValueError as e:

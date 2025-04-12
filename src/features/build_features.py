@@ -37,3 +37,4 @@ def create_dummy_vars(df):
         exit(1)
 
     return X, y
+

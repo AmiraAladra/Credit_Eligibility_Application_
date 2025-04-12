@@ -4,6 +4,8 @@ def load_and_preprocess_data(data_path):
     try:
         # Import the data from 'credit.csv'
         df = pd.read_csv(data_path)
+        
+        df['Loan_Approved'] = df['Loan_Approved'].map({'Y': 1, 'N': 0})
     except FileNotFoundError:
         print(f"Error: The file at {data_path} was not found.")
         exit(1)
@@ -48,3 +50,4 @@ def load_and_preprocess_data(data_path):
         exit(1)
 
     return df
+
